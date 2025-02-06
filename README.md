@@ -1,0 +1,38 @@
+**Backend Setup**
+
+1. **Create and configure the .env file**
+- **Location:** PLSR/backend/ (Create the file if it does not exist)
+- **Content:**
+**MONGO_URL=//Add your Mongodb Cloud URL**
+**PORT=5000**
+
+**CLOUDINARY_CLOUD_NAME=//Add your cloudinary cloud name**
+**CLOUDINARY_API_KEY=//Add your cloudinary API_KEY**
+**CLOUDINARY_API_SECRET=//Add your cloudinary API secret**
+- Create the above credentials if not done already through [Cloudinary Console](https://console.cloudinary.com/users/login)
+
+**DB_HOST=localhost**
+**DB_USER=root**
+**DB_PASS=//Add your local MySQL password**
+**DB_NAME=//Add your MySQL database name (ensure it is created manually in MySQL)**
+
+2. **MYSQL SETUP:** Paste the code from PLSR/SQL/all.sql into the database created in Step 1 and run the entire code.
+
+3. **Setup Python virtual environment and install libraries**
+- **Location:** PLSR/backend
+- **Commands:**
+python -m venv env
+env\Scripts\activate
+# install all the required libraries
+
+
+
+**Running the file in terminal**
+1)Navigate to PLSR/backend and run npm start
+
+2)navigate to PLSR/backend and run
+python -m venv env
+env\Scripts\activate
+python app.py
+
+3)Navigate to PLSR/frontend and run npm start
