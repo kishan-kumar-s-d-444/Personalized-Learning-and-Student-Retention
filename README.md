@@ -1,5 +1,6 @@
 ## Live on
-[🌐 Live App](https://plsr-psi.vercel.app)
+(https://plsr-psi.vercel.app)
+
 # **Backend Setup**
 
 ## **1. Create and Configure the `.env` File**
